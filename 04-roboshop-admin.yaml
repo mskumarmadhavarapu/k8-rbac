@@ -24,5 +24,5 @@ rules:
 - apiGroups: ["storage.k8s.io"]
 # at the HTTP level, the name of the resource for accessing Secret
   # objects is "secrets"
-  resources: ["storageClasses"]
+  resources: ["storageclasses"]
   verbs: ["get", "watch", "list"]
