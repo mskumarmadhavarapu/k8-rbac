@@ -11,12 +11,10 @@ data:
       - roboshop-junior
       userarn: arn:aws:iam::520072122793:user/sunil
       username: sunil
-  mapUsers: | 
     - groups:
       - roboshop-admin
       userarn: arn:aws:iam::520072122793:user/ramesh
       username: ramesh
-  mapUsers: | 
     - groups:
       - roboshop-junior
       userarn: arn:aws:iam::520072122793:user/rahem
