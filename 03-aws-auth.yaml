@@ -7,10 +7,15 @@ data:
       - system:nodes
       username: system:node:{{EC2PrivateDNSName}}
   mapUsers: | 
-      - groups:
+    - groups:
       - roboshop-junior
       userarn: arn:aws:iam::520072122793:user/sunil
       username: sunil
+  mapUsers: | 
+    - groups:
+      - roboshop-admin
+      userarn: arn:aws:iam::520072122793:user/ramesh
+      username: ramesh
 kind: ConfigMap
 metadata:
   creationTimestamp: "2026-04-23T14:14:51Z"
